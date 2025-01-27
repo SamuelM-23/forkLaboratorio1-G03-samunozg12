@@ -136,7 +136,9 @@ def main():
         # Puede guiarse de las opciones 1 y 2.
         # Imprima el total de tags de los libros cargados.
         elif int(inputs[0]) == 3:
-            pass
+            print('Cargando información de los tags de los libros....')
+            books_tags=load_books_tags(app)
+            print('Total de tags de los libros: '+str(books_tags)+'\n')
 
         elif int(inputs[0]) == 0:
             working = False
