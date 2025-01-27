@@ -38,9 +38,9 @@ This repository is part of the data structure and algorithms (#EDA) teaching fra
 
 The students edit this section to add their names, Uniandes emails, and specify which project functionality of the project they will implement.
 
-1. Student No. 1 Name, Student No. 1 Uniandes Email, Student No. 1 owned functionality.
-1. Student No. 2 Name, Student No. 2 Uniandes Email, Student No. 2 owned functionality.
-1. Student No. 3 Name, Student No. 3 Uniandes Email, Student No. 3 owned functionality.
+1. Mariana Rodriguez, m.rodriguez234@uniandes.edu.co, 202421258
+1. Samuel Munoz, sa.munozg12@uniandes.edu.co, 202423981
+1. Laura Sanchez, l.sanchezm2@uniandes.edu.co, 202420975
 
 [Back to top](#laboratorio-1)
 
@@ -89,6 +89,7 @@ To use this template, you need to follow the steps below:
 For further information and contact, use the following links:
 
 - Official Repository [Data Structures Documentation][data-struc-url].
+
 
 If you require further information, please contact us [via this email](mailto:isis1225@uniandes.edu.co)
 
