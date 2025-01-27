@@ -140,13 +140,13 @@ def load_books_tags(catalog, filename):
     # La función debe recibir el catalogo y el nombre del archivo csv con los tags de los libros.
     # La función debe cargar los tags de los libros del archivo y los agregar al conjunto book_tags del catalogo.
     # La función debe retornar el tamaño del conjunto de tags de los libros.
-    book_tags = catalog["Book_tags"]
+    book_tags = catalog["book_tags"]
     book_tagsfile = os.path.join(data_dir, filename)
-    catalog["Book_tags"] = set.load_set(tags, tagsfile)
+    catalog["book_tags"] = set.load_set(tags, tagsfile)
     if book_tags is None:
         return None
     else:
-        return set.size(catalog.get("Book_tags")) 
+        return set.size(catalog.get("book_tags")) 
 
 # Funciones de consulta
 
