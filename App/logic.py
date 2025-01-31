@@ -25,12 +25,10 @@
  * Santiago Arteaga - Otras versiones
  * Andres Rodriguez - Última version
  """
-
 import os
 
-
 # Importar el modulo de la estructura de datos set
-from DataStructures import set as set
+from DataStructures import Set as set
 
 # Directorio de datos de los archivos
 data_dir = os.path.dirname(os.path.realpath('__file__')) + '/Data/'
@@ -115,7 +113,6 @@ def load_tags(catalog, filename):
     tags = catalog["tags"]
     tagsfile = os.path.join(data_dir, filename)
     catalog["tags"] = set.load_set(tags, tagsfile)
-
     if set.is_empty(tags):
         return 0
     else:
@@ -142,7 +139,7 @@ def load_books_tags(catalog, filename):
     # La función debe retornar el tamaño del conjunto de tags de los libros.
     book_tags = catalog["book_tags"]
     book_tagsfile = os.path.join(data_dir, filename)
-    catalog["book_tags"] = set.load_set(tags, tagsfile)
+    catalog["book_tags"] = set.load_set(book_tags, book_tagsfile)
     if book_tags is None:
         return None
     else:
